@@ -9,5 +9,5 @@
   (if (= (remainder a b) 0)
       b
       (gcd b (remainder a b))))
-(define (sum a b)
+(define (sum a b) (+ a b))
   
